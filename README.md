@@ -233,7 +233,7 @@ fig, result = engine.render_diagnostic_figure(
 </a>
 
 ### **Muhammad Hassan**
-*AI / Deep Learning Researcher & Computational Pathology Specialist*
+*GenAI / Agentic AI / Deep Learning Engineer & Researcher*
 
 [![Portfolio](https://img.shields.io/badge/Personal_Portfolio-smhassan.me-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://smhassan.me)
 [![GitHub](https://img.shields.io/badge/GitHub-Muhammad--Hassan12-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Muhammad-Hassan12)
