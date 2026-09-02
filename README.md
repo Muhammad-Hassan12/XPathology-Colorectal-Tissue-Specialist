@@ -150,8 +150,9 @@ Evaluated on the independent `CRC-VAL-HE-7K` test cohort ($n=3,590$):
 ### 1. Installation
 
 ```bash
-git clone https://github.com/Muhammad-Hassan12/XPathology-CTransPath.git
-cd XPathology-CTransPath
+git clone https://github.com/Muhammad-Hassan12/XPathology-Colorectal-Tissue-Specialist.git
+huggingface-cli download rarfileexe/X-Pathology-Colorectal-Tissue-Classifier-CTransPath-Backbone xpathology_colon_ctranspath_v6.safetensors --local-dir .
+cd XPathology-Colorectal-Tissue-Specialist
 pip install -r requirements.txt
 ```
 
