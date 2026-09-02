@@ -1,0 +1,972 @@
+[
+  {
+    "predicted_index": 1,
+    "predicted_class": "BACK",
+    "predicted_description": "Background (Glass / Non-tissue)",
+    "calibrated_confidence": 0.9934056997299194,
+    "raw_confidence": 0.8793300986289978,
+    "temperature_used": 0.5655267561804929,
+    "logits": [
+      0.9838898777961731,
+      4.409933567047119,
+      0.22888463735580444,
+      0.061822958290576935,
+      0.4167964458465576,
+      -0.11865819990634918,
+      0.468799352645874,
+      0.3731933534145355,
+      -0.17724530398845673
+    ],
+    "raw_probabilities": {
+      "ADI": 0.02859170362353325,
+      "BACK": 0.8793300986289978,
+      "DEB": 0.013438335619866848,
+      "LYM": 0.011370811611413956,
+      "MUC": 0.016216402873396873,
+      "MUS": 0.009493133053183556,
+      "NORM": 0.017082015052437782,
+      "STR": 0.01552451029419899,
+      "TUM": 0.00895293802022934
+    },
+    "calibrated_probabilities": {
+      "ADI": 0.0023233117535710335,
+      "BACK": 0.9934056997299194,
+      "DEB": 0.000611369323451072,
+      "LYM": 0.0004549975274130702,
+      "MUC": 0.0008523340220563114,
+      "MUS": 0.0003306807775516063,
+      "NORM": 0.0009344267309643328,
+      "STR": 0.0007890871493145823,
+      "TUM": 0.00029813809669576585
+    },
+    "top_k_ranking": [
+      {
+        "rank": 1,
+        "class_index": 1,
+        "class_name": "BACK",
+        "description": "Background (Glass / Non-tissue)",
+        "calibrated_confidence": 0.9934056997299194,
+        "raw_confidence": 0.8793300986289978,
+        "logit": 4.409933567047119
+      },
+      {
+        "rank": 2,
+        "class_index": 0,
+        "class_name": "ADI",
+        "description": "Adipose Tissue (Fat)",
+        "calibrated_confidence": 0.0023233117535710335,
+        "raw_confidence": 0.02859170362353325,
+        "logit": 0.9838898777961731
+      },
+      {
+        "rank": 3,
+        "class_index": 6,
+        "class_name": "NORM",
+        "description": "Normal Colon Mucosa",
+        "calibrated_confidence": 0.0009344267309643328,
+        "raw_confidence": 0.017082015052437782,
+        "logit": 0.468799352645874
+      },
+      {
+        "rank": 4,
+        "class_index": 4,
+        "class_name": "MUC",
+        "description": "Mucus",
+        "calibrated_confidence": 0.0008523340220563114,
+        "raw_confidence": 0.016216402873396873,
+        "logit": 0.4167964458465576
+      },
+      {
+        "rank": 5,
+        "class_index": 7,
+        "class_name": "STR",
+        "description": "Cancer-Associated Stroma",
+        "calibrated_confidence": 0.0007890871493145823,
+        "raw_confidence": 0.01552451029419899,
+        "logit": 0.3731933534145355
+      }
+    ],
+    "gradcam_info": {
+      "target_class": "BACK",
+      "target_description": "Background (Glass / Non-tissue)",
+      "target_confidence": 0.9934056997299194,
+      "method": "gradcam++",
+      "used_fallback": false,
+      "saved_figure_path": "gradcam_output\\Background_gradcam.png"
+    },
+    "file_path": "test\\Background.png"
+  },
+  {
+    "predicted_index": 7,
+    "predicted_class": "STR",
+    "predicted_description": "Cancer-Associated Stroma",
+    "calibrated_confidence": 0.8029147386550903,
+    "raw_confidence": 0.5373857617378235,
+    "temperature_used": 0.5655267561804929,
+    "logits": [
+      0.011605687439441681,
+      0.43578317761421204,
+      0.8570739030838013,
+      0.39835411310195923,
+      0.37472259998321533,
+      2.3308629989624023,
+      1.3474087715148926,
+      3.3206543922424316,
+      0.6070307493209839
+    ],
+    "raw_probabilities": {
+      "ADI": 0.019641950726509094,
+      "BACK": 0.030019432306289673,
+      "DEB": 0.04574742913246155,
+      "LYM": 0.028916599228978157,
+      "MUC": 0.028241267427802086,
+      "MUS": 0.19972167909145355,
+      "NORM": 0.0746992900967598,
+      "STR": 0.5373857617378235,
+      "TUM": 0.0356266051530838
+    },
+    "calibrated_probabilities": {
+      "ADI": 0.002309383824467659,
+      "BACK": 0.004889245145022869,
+      "DEB": 0.010298420675098896,
+      "LYM": 0.004576129373162985,
+      "MUC": 0.004388847853988409,
+      "MUS": 0.1394961178302765,
+      "NORM": 0.024508781731128693,
+      "STR": 0.8029147386550903,
+      "TUM": 0.006618366576731205
+    },
+    "top_k_ranking": [
+      {
+        "rank": 1,
+        "class_index": 7,
+        "class_name": "STR",
+        "description": "Cancer-Associated Stroma",
+        "calibrated_confidence": 0.8029147386550903,
+        "raw_confidence": 0.5373857617378235,
+        "logit": 3.3206543922424316
+      },
+      {
+        "rank": 2,
+        "class_index": 5,
+        "class_name": "MUS",
+        "description": "Smooth Muscle",
+        "calibrated_confidence": 0.1394961178302765,
+        "raw_confidence": 0.19972167909145355,
+        "logit": 2.3308629989624023
+      },
+      {
+        "rank": 3,
+        "class_index": 6,
+        "class_name": "NORM",
+        "description": "Normal Colon Mucosa",
+        "calibrated_confidence": 0.024508781731128693,
+        "raw_confidence": 0.0746992900967598,
+        "logit": 1.3474087715148926
+      },
+      {
+        "rank": 4,
+        "class_index": 2,
+        "class_name": "DEB",
+        "description": "Debris & Necrosis",
+        "calibrated_confidence": 0.010298420675098896,
+        "raw_confidence": 0.04574742913246155,
+        "logit": 0.8570739030838013
+      },
+      {
+        "rank": 5,
+        "class_index": 8,
+        "class_name": "TUM",
+        "description": "Colorectal Adenocarcinoma (Tumour)",
+        "calibrated_confidence": 0.006618366576731205,
+        "raw_confidence": 0.0356266051530838,
+        "logit": 0.6070307493209839
+      }
+    ],
+    "gradcam_info": {
+      "target_class": "STR",
+      "target_description": "Cancer-Associated Stroma",
+      "target_confidence": 0.8029147386550903,
+      "method": "gradcam++",
+      "used_fallback": false,
+      "saved_figure_path": "gradcam_output\\Cancer-Associated Stroma_gradcam.png"
+    },
+    "file_path": "test\\Cancer-Associated Stroma.png"
+  },
+  {
+    "predicted_index": 8,
+    "predicted_class": "TUM",
+    "predicted_description": "Colorectal Adenocarcinoma (Tumour)",
+    "calibrated_confidence": 0.9551790952682495,
+    "raw_confidence": 0.7091128826141357,
+    "temperature_used": 0.5655267561804929,
+    "logits": [
+      0.2661953568458557,
+      0.6409404873847961,
+      1.2620855569839478,
+      0.36237528920173645,
+      0.3768271207809448,
+      -0.14133943617343903,
+      0.3916957378387451,
+      0.696540892124176,
+      3.5290579795837402
+    ],
+    "raw_probabilities": {
+      "ADI": 0.027143891900777817,
+      "BACK": 0.039484065026044846,
+      "DEB": 0.07348212599754333,
+      "LYM": 0.02988426201045513,
+      "MUC": 0.03031928651034832,
+      "MUS": 0.01805851422250271,
+      "NORM": 0.030773455277085304,
+      "STR": 0.04174157232046127,
+      "TUM": 0.7091128826141357
+    },
+    "calibrated_probabilities": {
+      "ADI": 0.00298112235032022,
+      "BACK": 0.005783147644251585,
+      "DEB": 0.017344851046800613,
+      "LYM": 0.003533791983500123,
+      "MUC": 0.0036252604331821203,
+      "MUS": 0.001450156676582992,
+      "NORM": 0.0037218392826616764,
+      "STR": 0.0063806138932704926,
+      "TUM": 0.9551790952682495
+    },
+    "top_k_ranking": [
+      {
+        "rank": 1,
+        "class_index": 8,
+        "class_name": "TUM",
+        "description": "Colorectal Adenocarcinoma (Tumour)",
+        "calibrated_confidence": 0.9551790952682495,
+        "raw_confidence": 0.7091128826141357,
+        "logit": 3.5290579795837402
+      },
+      {
+        "rank": 2,
+        "class_index": 2,
+        "class_name": "DEB",
+        "description": "Debris & Necrosis",
+        "calibrated_confidence": 0.017344851046800613,
+        "raw_confidence": 0.07348212599754333,
+        "logit": 1.2620855569839478
+      },
+      {
+        "rank": 3,
+        "class_index": 7,
+        "class_name": "STR",
+        "description": "Cancer-Associated Stroma",
+        "calibrated_confidence": 0.0063806138932704926,
+        "raw_confidence": 0.04174157232046127,
+        "logit": 0.696540892124176
+      },
+      {
+        "rank": 4,
+        "class_index": 1,
+        "class_name": "BACK",
+        "description": "Background (Glass / Non-tissue)",
+        "calibrated_confidence": 0.005783147644251585,
+        "raw_confidence": 0.039484065026044846,
+        "logit": 0.6409404873847961
+      },
+      {
+        "rank": 5,
+        "class_index": 6,
+        "class_name": "NORM",
+        "description": "Normal Colon Mucosa",
+        "calibrated_confidence": 0.0037218392826616764,
+        "raw_confidence": 0.030773455277085304,
+        "logit": 0.3916957378387451
+      }
+    ],
+    "gradcam_info": {
+      "target_class": "TUM",
+      "target_description": "Colorectal Adenocarcinoma (Tumour)",
+      "target_confidence": 0.9551790952682495,
+      "method": "gradcam++",
+      "used_fallback": false,
+      "saved_figure_path": "gradcam_output\\Colorectal Adenocarcinoma (Tumour)_gradcam.png"
+    },
+    "file_path": "test\\Colorectal Adenocarcinoma (Tumour).jpg"
+  },
+  {
+    "predicted_index": 4,
+    "predicted_class": "MUC",
+    "predicted_description": "Mucus",
+    "calibrated_confidence": 0.46015211939811707,
+    "raw_confidence": 0.2836407423019409,
+    "temperature_used": 0.5655267561804929,
+    "logits": [
+      0.5955902934074402,
+      1.0231881141662598,
+      1.2834669351577759,
+      -0.12055465579032898,
+      1.826799750328064,
+      -0.06761781871318817,
+      0.7846261262893677,
+      0.5205473303794861,
+      0.5839185118675232
+    ],
+    "raw_probabilities": {
+      "ADI": 0.08280586451292038,
+      "BACK": 0.12698853015899658,
+      "DEB": 0.1647411733865738,
+      "LYM": 0.04046162590384483,
+      "MUC": 0.2836407423019409,
+      "MUS": 0.04266124591231346,
+      "NORM": 0.10003647208213806,
+      "STR": 0.07681930065155029,
+      "TUM": 0.0818450003862381
+    },
+    "calibrated_probabilities": {
+      "ADI": 0.052167266607284546,
+      "BACK": 0.11111443489789963,
+      "DEB": 0.17605598270893097,
+      "LYM": 0.014704049564898014,
+      "MUC": 0.46015211939811707,
+      "MUS": 0.016146916896104813,
+      "NORM": 0.07287314534187317,
+      "STR": 0.04568452760577202,
+      "TUM": 0.05110163986682892
+    },
+    "top_k_ranking": [
+      {
+        "rank": 1,
+        "class_index": 4,
+        "class_name": "MUC",
+        "description": "Mucus",
+        "calibrated_confidence": 0.46015211939811707,
+        "raw_confidence": 0.2836407423019409,
+        "logit": 1.826799750328064
+      },
+      {
+        "rank": 2,
+        "class_index": 2,
+        "class_name": "DEB",
+        "description": "Debris & Necrosis",
+        "calibrated_confidence": 0.17605598270893097,
+        "raw_confidence": 0.1647411733865738,
+        "logit": 1.2834669351577759
+      },
+      {
+        "rank": 3,
+        "class_index": 1,
+        "class_name": "BACK",
+        "description": "Background (Glass / Non-tissue)",
+        "calibrated_confidence": 0.11111443489789963,
+        "raw_confidence": 0.12698853015899658,
+        "logit": 1.0231881141662598
+      },
+      {
+        "rank": 4,
+        "class_index": 6,
+        "class_name": "NORM",
+        "description": "Normal Colon Mucosa",
+        "calibrated_confidence": 0.07287314534187317,
+        "raw_confidence": 0.10003647208213806,
+        "logit": 0.7846261262893677
+      },
+      {
+        "rank": 5,
+        "class_index": 0,
+        "class_name": "ADI",
+        "description": "Adipose Tissue (Fat)",
+        "calibrated_confidence": 0.052167266607284546,
+        "raw_confidence": 0.08280586451292038,
+        "logit": 0.5955902934074402
+      }
+    ],
+    "gradcam_info": {
+      "target_class": "MUC",
+      "target_description": "Mucus",
+      "target_confidence": 0.46015211939811707,
+      "method": "gradcam++",
+      "used_fallback": false,
+      "saved_figure_path": "gradcam_output\\Colorectal Adenocarcinoma (Tumour)2_gradcam.png"
+    },
+    "file_path": "test\\Colorectal Adenocarcinoma (Tumour)2.jpg"
+  },
+  {
+    "predicted_index": 2,
+    "predicted_class": "DEB",
+    "predicted_description": "Debris & Necrosis",
+    "calibrated_confidence": 0.99659663438797,
+    "raw_confidence": 0.9107598066329956,
+    "temperature_used": 0.5655267561804929,
+    "logits": [
+      0.8306054472923279,
+      0.8952280879020691,
+      5.278141498565674,
+      1.0694990158081055,
+      1.1111429929733276,
+      0.41329073905944824,
+      1.001349925994873,
+      0.7044973373413086,
+      0.8129258751869202
+    ],
+    "raw_probabilities": {
+      "ADI": 0.010662609711289406,
+      "BACK": 0.011374404653906822,
+      "DEB": 0.9107598066329956,
+      "LYM": 0.013539844192564487,
+      "MUC": 0.014115603640675545,
+      "MUS": 0.007024670019745827,
+      "NORM": 0.012647855095565319,
+      "STR": 0.009399298578500748,
+      "TUM": 0.010475754737854004
+    },
+    "calibrated_probabilities": {
+      "ADI": 0.00038286755443550646,
+      "BACK": 0.00042921517160721123,
+      "DEB": 0.99659663438797,
+      "LYM": 0.0005841251695528626,
+      "MUC": 0.0006287620053626597,
+      "MUS": 0.0001830512919696048,
+      "NORM": 0.0005178108694963157,
+      "STR": 0.00030634019640274346,
+      "TUM": 0.0003710833552759141
+    },
+    "top_k_ranking": [
+      {
+        "rank": 1,
+        "class_index": 2,
+        "class_name": "DEB",
+        "description": "Debris & Necrosis",
+        "calibrated_confidence": 0.99659663438797,
+        "raw_confidence": 0.9107598066329956,
+        "logit": 5.278141498565674
+      },
+      {
+        "rank": 2,
+        "class_index": 4,
+        "class_name": "MUC",
+        "description": "Mucus",
+        "calibrated_confidence": 0.0006287620053626597,
+        "raw_confidence": 0.014115603640675545,
+        "logit": 1.1111429929733276
+      },
+      {
+        "rank": 3,
+        "class_index": 3,
+        "class_name": "LYM",
+        "description": "Lymphocytes (Immune Infiltration)",
+        "calibrated_confidence": 0.0005841251695528626,
+        "raw_confidence": 0.013539844192564487,
+        "logit": 1.0694990158081055
+      },
+      {
+        "rank": 4,
+        "class_index": 6,
+        "class_name": "NORM",
+        "description": "Normal Colon Mucosa",
+        "calibrated_confidence": 0.0005178108694963157,
+        "raw_confidence": 0.012647855095565319,
+        "logit": 1.001349925994873
+      },
+      {
+        "rank": 5,
+        "class_index": 1,
+        "class_name": "BACK",
+        "description": "Background (Glass / Non-tissue)",
+        "calibrated_confidence": 0.00042921517160721123,
+        "raw_confidence": 0.011374404653906822,
+        "logit": 0.8952280879020691
+      }
+    ],
+    "gradcam_info": {
+      "target_class": "DEB",
+      "target_description": "Debris & Necrosis",
+      "target_confidence": 0.99659663438797,
+      "method": "gradcam++",
+      "used_fallback": false,
+      "saved_figure_path": "gradcam_output\\Debris  Necrosis_gradcam.png"
+    },
+    "file_path": "test\\Debris  Necrosis.png"
+  },
+  {
+    "predicted_index": 3,
+    "predicted_class": "LYM",
+    "predicted_description": "Lymphocytes (Immune Infiltration)",
+    "calibrated_confidence": 0.9970327615737915,
+    "raw_confidence": 0.9180045127868652,
+    "temperature_used": 0.5655267561804929,
+    "logits": [
+      0.45413094758987427,
+      0.627206563949585,
+      0.7501865029335022,
+      5.205283164978027,
+      0.8339126110076904,
+      0.5284050703048706,
+      1.141758918762207,
+      0.8920848965644836,
+      0.13215841352939606
+    ],
+    "raw_probabilities": {
+      "ADI": 0.007933150976896286,
+      "BACK": 0.009432167746126652,
+      "DEB": 0.01066647469997406,
+      "LYM": 0.9180045127868652,
+      "MUC": 0.011597991921007633,
+      "MUS": 0.00854481291025877,
+      "NORM": 0.01577896997332573,
+      "STR": 0.012292683124542236,
+      "TUM": 0.005749295931309462
+    },
+    "calibrated_probabilities": {
+      "ADI": 0.0002239121386082843,
+      "BACK": 0.00030408171005547047,
+      "DEB": 0.0003779481630772352,
+      "LYM": 0.9970327615737915,
+      "MUC": 0.00043825781904160976,
+      "MUS": 0.0002553384692873806,
+      "NORM": 0.0007553342147730291,
+      "STR": 0.00048573885578662157,
+      "TUM": 0.0001267126208404079
+    },
+    "top_k_ranking": [
+      {
+        "rank": 1,
+        "class_index": 3,
+        "class_name": "LYM",
+        "description": "Lymphocytes (Immune Infiltration)",
+        "calibrated_confidence": 0.9970327615737915,
+        "raw_confidence": 0.9180045127868652,
+        "logit": 5.205283164978027
+      },
+      {
+        "rank": 2,
+        "class_index": 6,
+        "class_name": "NORM",
+        "description": "Normal Colon Mucosa",
+        "calibrated_confidence": 0.0007553342147730291,
+        "raw_confidence": 0.01577896997332573,
+        "logit": 1.141758918762207
+      },
+      {
+        "rank": 3,
+        "class_index": 7,
+        "class_name": "STR",
+        "description": "Cancer-Associated Stroma",
+        "calibrated_confidence": 0.00048573885578662157,
+        "raw_confidence": 0.012292683124542236,
+        "logit": 0.8920848965644836
+      },
+      {
+        "rank": 4,
+        "class_index": 4,
+        "class_name": "MUC",
+        "description": "Mucus",
+        "calibrated_confidence": 0.00043825781904160976,
+        "raw_confidence": 0.011597991921007633,
+        "logit": 0.8339126110076904
+      },
+      {
+        "rank": 5,
+        "class_index": 2,
+        "class_name": "DEB",
+        "description": "Debris & Necrosis",
+        "calibrated_confidence": 0.0003779481630772352,
+        "raw_confidence": 0.01066647469997406,
+        "logit": 0.7501865029335022
+      }
+    ],
+    "gradcam_info": {
+      "target_class": "LYM",
+      "target_description": "Lymphocytes (Immune Infiltration)",
+      "target_confidence": 0.9970327615737915,
+      "method": "gradcam++",
+      "used_fallback": false,
+      "saved_figure_path": "gradcam_output\\Lymphocytes_gradcam.png"
+    },
+    "file_path": "test\\Lymphocytes.png"
+  },
+  {
+    "predicted_index": 4,
+    "predicted_class": "MUC",
+    "predicted_description": "Mucus",
+    "calibrated_confidence": 0.7849479913711548,
+    "raw_confidence": 0.5001403093338013,
+    "temperature_used": 0.5655267561804929,
+    "logits": [
+      0.8878702521324158,
+      1.4054425954818726,
+      1.8657485246658325,
+      0.10848064720630646,
+      2.9857356548309326,
+      -0.0011353343725204468,
+      0.938089907169342,
+      0.3326858580112457,
+      -0.2762160897254944
+    ],
+    "raw_probabilities": {
+      "ADI": 0.06137627363204956,
+      "BACK": 0.10298626124858856,
+      "DEB": 0.16318777203559875,
+      "LYM": 0.028152430430054665,
+      "MUC": 0.5001403093338013,
+      "MUS": 0.025229593738913536,
+      "NORM": 0.06453727185726166,
+      "STR": 0.03522792086005211,
+      "TUM": 0.019162150099873543
+    },
+    "calibrated_probabilities": {
+      "ADI": 0.019221706315875053,
+      "BACK": 0.04800206050276756,
+      "DEB": 0.10833041369915009,
+      "LYM": 0.00484464829787612,
+      "MUC": 0.7849479913711548,
+      "MUS": 0.003991011064499617,
+      "NORM": 0.02100670523941517,
+      "STR": 0.007201778702437878,
+      "TUM": 0.0024537788704037666
+    },
+    "top_k_ranking": [
+      {
+        "rank": 1,
+        "class_index": 4,
+        "class_name": "MUC",
+        "description": "Mucus",
+        "calibrated_confidence": 0.7849479913711548,
+        "raw_confidence": 0.5001403093338013,
+        "logit": 2.9857356548309326
+      },
+      {
+        "rank": 2,
+        "class_index": 2,
+        "class_name": "DEB",
+        "description": "Debris & Necrosis",
+        "calibrated_confidence": 0.10833041369915009,
+        "raw_confidence": 0.16318777203559875,
+        "logit": 1.8657485246658325
+      },
+      {
+        "rank": 3,
+        "class_index": 1,
+        "class_name": "BACK",
+        "description": "Background (Glass / Non-tissue)",
+        "calibrated_confidence": 0.04800206050276756,
+        "raw_confidence": 0.10298626124858856,
+        "logit": 1.4054425954818726
+      },
+      {
+        "rank": 4,
+        "class_index": 6,
+        "class_name": "NORM",
+        "description": "Normal Colon Mucosa",
+        "calibrated_confidence": 0.02100670523941517,
+        "raw_confidence": 0.06453727185726166,
+        "logit": 0.938089907169342
+      },
+      {
+        "rank": 5,
+        "class_index": 0,
+        "class_name": "ADI",
+        "description": "Adipose Tissue (Fat)",
+        "calibrated_confidence": 0.019221706315875053,
+        "raw_confidence": 0.06137627363204956,
+        "logit": 0.8878702521324158
+      }
+    ],
+    "gradcam_info": {
+      "target_class": "MUC",
+      "target_description": "Mucus",
+      "target_confidence": 0.7849479913711548,
+      "method": "gradcam++",
+      "used_fallback": false,
+      "saved_figure_path": "gradcam_output\\Mucus_gradcam.png"
+    },
+    "file_path": "test\\Mucus.jfif"
+  },
+  {
+    "predicted_index": 6,
+    "predicted_class": "NORM",
+    "predicted_description": "Normal Colon Mucosa",
+    "calibrated_confidence": 0.9952567219734192,
+    "raw_confidence": 0.8936285376548767,
+    "temperature_used": 0.5655267561804929,
+    "logits": [
+      0.8929082751274109,
+      0.9461109042167664,
+      0.7321580052375793,
+      0.8762508034706116,
+      1.015158772468567,
+      0.7313111424446106,
+      5.1286702156066895,
+      0.8904946446418762,
+      1.1995588541030884
+    ],
+    "raw_probabilities": {
+      "ADI": 0.012929713353514671,
+      "BACK": 0.01363623607903719,
+      "DEB": 0.011009715497493744,
+      "LYM": 0.012716122902929783,
+      "MUC": 0.014611057005822659,
+      "MUS": 0.011000395752489567,
+      "NORM": 0.8936285376548767,
+      "STR": 0.012898548506200314,
+      "TUM": 0.017569750547409058
+    },
+    "calibrated_probabilities": {
+      "ADI": 0.0005560261779464781,
+      "BACK": 0.0006108744419179857,
+      "DEB": 0.0004184537974651903,
+      "LYM": 0.0005398874054662883,
+      "MUC": 0.0006902036257088184,
+      "MUS": 0.0004178277449682355,
+      "NORM": 0.9952567219734192,
+      "STR": 0.0005536582903005183,
+      "TUM": 0.000956283591222018
+    },
+    "top_k_ranking": [
+      {
+        "rank": 1,
+        "class_index": 6,
+        "class_name": "NORM",
+        "description": "Normal Colon Mucosa",
+        "calibrated_confidence": 0.9952567219734192,
+        "raw_confidence": 0.8936285376548767,
+        "logit": 5.1286702156066895
+      },
+      {
+        "rank": 2,
+        "class_index": 8,
+        "class_name": "TUM",
+        "description": "Colorectal Adenocarcinoma (Tumour)",
+        "calibrated_confidence": 0.000956283591222018,
+        "raw_confidence": 0.017569750547409058,
+        "logit": 1.1995588541030884
+      },
+      {
+        "rank": 3,
+        "class_index": 4,
+        "class_name": "MUC",
+        "description": "Mucus",
+        "calibrated_confidence": 0.0006902036257088184,
+        "raw_confidence": 0.014611057005822659,
+        "logit": 1.015158772468567
+      },
+      {
+        "rank": 4,
+        "class_index": 1,
+        "class_name": "BACK",
+        "description": "Background (Glass / Non-tissue)",
+        "calibrated_confidence": 0.0006108744419179857,
+        "raw_confidence": 0.01363623607903719,
+        "logit": 0.9461109042167664
+      },
+      {
+        "rank": 5,
+        "class_index": 0,
+        "class_name": "ADI",
+        "description": "Adipose Tissue (Fat)",
+        "calibrated_confidence": 0.0005560261779464781,
+        "raw_confidence": 0.012929713353514671,
+        "logit": 0.8929082751274109
+      }
+    ],
+    "gradcam_info": {
+      "target_class": "NORM",
+      "target_description": "Normal Colon Mucosa",
+      "target_confidence": 0.9952567219734192,
+      "method": "gradcam++",
+      "used_fallback": false,
+      "saved_figure_path": "gradcam_output\\Normal Colon Mucosa_gradcam.png"
+    },
+    "file_path": "test\\Normal Colon Mucosa.png"
+  },
+  {
+    "predicted_index": 5,
+    "predicted_class": "MUS",
+    "predicted_description": "Smooth Muscle",
+    "calibrated_confidence": 0.9934473633766174,
+    "raw_confidence": 0.8747900128364563,
+    "temperature_used": 0.5655267561804929,
+    "logits": [
+      0.8907920122146606,
+      0.7355124950408936,
+      0.7897583246231079,
+      0.7306628823280334,
+      0.9871354699134827,
+      4.845553398132324,
+      0.9855666756629944,
+      0.8691526651382446,
+      0.5018995404243469
+    ],
+    "raw_probabilities": {
+      "ADI": 0.016763808205723763,
+      "BACK": 0.014352774247527122,
+      "DEB": 0.015152850188314915,
+      "LYM": 0.014283332973718643,
+      "MUC": 0.018459254875779152,
+      "MUS": 0.8747900128364563,
+      "NORM": 0.018430320546030998,
+      "STR": 0.016404947265982628,
+      "TUM": 0.011362632736563683
+    },
+    "calibrated_probabilities": {
+      "ADI": 0.0009122172486968338,
+      "BACK": 0.0006931895040906966,
+      "DEB": 0.0007629743777215481,
+      "LYM": 0.0006872704834677279,
+      "MUC": 0.0010816453723236918,
+      "MUS": 0.9934473633766174,
+      "NORM": 0.0010786494240164757,
+      "STR": 0.0008779717027209699,
+      "TUM": 0.00045861638500355184
+    },
+    "top_k_ranking": [
+      {
+        "rank": 1,
+        "class_index": 5,
+        "class_name": "MUS",
+        "description": "Smooth Muscle",
+        "calibrated_confidence": 0.9934473633766174,
+        "raw_confidence": 0.8747900128364563,
+        "logit": 4.845553398132324
+      },
+      {
+        "rank": 2,
+        "class_index": 4,
+        "class_name": "MUC",
+        "description": "Mucus",
+        "calibrated_confidence": 0.0010816453723236918,
+        "raw_confidence": 0.018459254875779152,
+        "logit": 0.9871354699134827
+      },
+      {
+        "rank": 3,
+        "class_index": 6,
+        "class_name": "NORM",
+        "description": "Normal Colon Mucosa",
+        "calibrated_confidence": 0.0010786494240164757,
+        "raw_confidence": 0.018430320546030998,
+        "logit": 0.9855666756629944
+      },
+      {
+        "rank": 4,
+        "class_index": 0,
+        "class_name": "ADI",
+        "description": "Adipose Tissue (Fat)",
+        "calibrated_confidence": 0.0009122172486968338,
+        "raw_confidence": 0.016763808205723763,
+        "logit": 0.8907920122146606
+      },
+      {
+        "rank": 5,
+        "class_index": 7,
+        "class_name": "STR",
+        "description": "Cancer-Associated Stroma",
+        "calibrated_confidence": 0.0008779717027209699,
+        "raw_confidence": 0.016404947265982628,
+        "logit": 0.8691526651382446
+      }
+    ],
+    "gradcam_info": {
+      "target_class": "MUS",
+      "target_description": "Smooth Muscle",
+      "target_confidence": 0.9934473633766174,
+      "method": "gradcam++",
+      "used_fallback": false,
+      "saved_figure_path": "gradcam_output\\Smooth Muscle_gradcam.png"
+    },
+    "file_path": "test\\Smooth Muscle.png"
+  },
+  {
+    "predicted_index": 0,
+    "predicted_class": "ADI",
+    "predicted_description": "Adipose Tissue (Fat)",
+    "calibrated_confidence": 0.4253808259963989,
+    "raw_confidence": 0.28833943605422974,
+    "temperature_used": 0.5655267561804929,
+    "logits": [
+      1.8364776372909546,
+      0.541258692741394,
+      0.11633957922458649,
+      1.1845245361328125,
+      -0.18260686099529266,
+      1.6241458654403687,
+      0.009145364165306091,
+      0.6144571304321289,
+      -0.4937010407447815
+    ],
+    "raw_probabilities": {
+      "ADI": 0.28833943605422974,
+      "BACK": 0.07895826548337936,
+      "DEB": 0.05162470042705536,
+      "LYM": 0.15023267269134521,
+      "MUC": 0.03828483819961548,
+      "MUS": 0.23317904770374298,
+      "NORM": 0.046377118676900864,
+      "STR": 0.08495467156171799,
+      "TUM": 0.028049185872077942
+    },
+    "calibrated_probabilities": {
+      "ADI": 0.4253808259963989,
+      "BACK": 0.043064430356025696,
+      "DEB": 0.020314371213316917,
+      "LYM": 0.13431130349636078,
+      "MUC": 0.011973700486123562,
+      "MUS": 0.2922256588935852,
+      "NORM": 0.01680675707757473,
+      "STR": 0.04901525005698204,
+      "TUM": 0.006907558999955654
+    },
+    "top_k_ranking": [
+      {
+        "rank": 1,
+        "class_index": 0,
+        "class_name": "ADI",
+        "description": "Adipose Tissue (Fat)",
+        "calibrated_confidence": 0.4253808259963989,
+        "raw_confidence": 0.28833943605422974,
+        "logit": 1.8364776372909546
+      },
+      {
+        "rank": 2,
+        "class_index": 5,
+        "class_name": "MUS",
+        "description": "Smooth Muscle",
+        "calibrated_confidence": 0.2922256588935852,
+        "raw_confidence": 0.23317904770374298,
+        "logit": 1.6241458654403687
+      },
+      {
+        "rank": 3,
+        "class_index": 3,
+        "class_name": "LYM",
+        "description": "Lymphocytes (Immune Infiltration)",
+        "calibrated_confidence": 0.13431130349636078,
+        "raw_confidence": 0.15023267269134521,
+        "logit": 1.1845245361328125
+      },
+      {
+        "rank": 4,
+        "class_index": 7,
+        "class_name": "STR",
+        "description": "Cancer-Associated Stroma",
+        "calibrated_confidence": 0.04901525005698204,
+        "raw_confidence": 0.08495467156171799,
+        "logit": 0.6144571304321289
+      },
+      {
+        "rank": 5,
+        "class_index": 1,
+        "class_name": "BACK",
+        "description": "Background (Glass / Non-tissue)",
+        "calibrated_confidence": 0.043064430356025696,
+        "raw_confidence": 0.07895826548337936,
+        "logit": 0.541258692741394
+      }
+    ],
+    "gradcam_info": {
+      "target_class": "ADI",
+      "target_description": "Adipose Tissue (Fat)",
+      "target_confidence": 0.4253808259963989,
+      "method": "gradcam++",
+      "used_fallback": false,
+      "saved_figure_path": "gradcam_output\\T1_gradcam.png"
+    },
+    "file_path": "test\\T1.jpg"
+  }
+]

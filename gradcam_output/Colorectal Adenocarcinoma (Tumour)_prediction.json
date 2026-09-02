@@ -1,0 +1,96 @@
+{
+  "predicted_index": 8,
+  "predicted_class": "TUM",
+  "predicted_description": "Colorectal Adenocarcinoma (Tumour)",
+  "calibrated_confidence": 0.9551790952682495,
+  "raw_confidence": 0.7091128826141357,
+  "temperature_used": 0.5655267561804929,
+  "logits": [
+    0.2661953568458557,
+    0.6409404873847961,
+    1.2620855569839478,
+    0.36237528920173645,
+    0.3768271207809448,
+    -0.14133943617343903,
+    0.3916957378387451,
+    0.696540892124176,
+    3.5290579795837402
+  ],
+  "raw_probabilities": {
+    "ADI": 0.027143891900777817,
+    "BACK": 0.039484065026044846,
+    "DEB": 0.07348212599754333,
+    "LYM": 0.02988426201045513,
+    "MUC": 0.03031928651034832,
+    "MUS": 0.01805851422250271,
+    "NORM": 0.030773455277085304,
+    "STR": 0.04174157232046127,
+    "TUM": 0.7091128826141357
+  },
+  "calibrated_probabilities": {
+    "ADI": 0.00298112235032022,
+    "BACK": 0.005783147644251585,
+    "DEB": 0.017344851046800613,
+    "LYM": 0.003533791983500123,
+    "MUC": 0.0036252604331821203,
+    "MUS": 0.001450156676582992,
+    "NORM": 0.0037218392826616764,
+    "STR": 0.0063806138932704926,
+    "TUM": 0.9551790952682495
+  },
+  "top_k_ranking": [
+    {
+      "rank": 1,
+      "class_index": 8,
+      "class_name": "TUM",
+      "description": "Colorectal Adenocarcinoma (Tumour)",
+      "calibrated_confidence": 0.9551790952682495,
+      "raw_confidence": 0.7091128826141357,
+      "logit": 3.5290579795837402
+    },
+    {
+      "rank": 2,
+      "class_index": 2,
+      "class_name": "DEB",
+      "description": "Debris & Necrosis",
+      "calibrated_confidence": 0.017344851046800613,
+      "raw_confidence": 0.07348212599754333,
+      "logit": 1.2620855569839478
+    },
+    {
+      "rank": 3,
+      "class_index": 7,
+      "class_name": "STR",
+      "description": "Cancer-Associated Stroma",
+      "calibrated_confidence": 0.0063806138932704926,
+      "raw_confidence": 0.04174157232046127,
+      "logit": 0.696540892124176
+    },
+    {
+      "rank": 4,
+      "class_index": 1,
+      "class_name": "BACK",
+      "description": "Background (Glass / Non-tissue)",
+      "calibrated_confidence": 0.005783147644251585,
+      "raw_confidence": 0.039484065026044846,
+      "logit": 0.6409404873847961
+    },
+    {
+      "rank": 5,
+      "class_index": 6,
+      "class_name": "NORM",
+      "description": "Normal Colon Mucosa",
+      "calibrated_confidence": 0.0037218392826616764,
+      "raw_confidence": 0.030773455277085304,
+      "logit": 0.3916957378387451
+    }
+  ],
+  "gradcam_info": {
+    "target_class": "TUM",
+    "target_description": "Colorectal Adenocarcinoma (Tumour)",
+    "target_confidence": 0.9551790952682495,
+    "method": "gradcam++",
+    "used_fallback": false,
+    "saved_figure_path": "gradcam_output\\Colorectal Adenocarcinoma (Tumour)_gradcam.png"
+  }
+}

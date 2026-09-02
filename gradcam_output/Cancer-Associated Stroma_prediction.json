@@ -1,0 +1,96 @@
+{
+  "predicted_index": 7,
+  "predicted_class": "STR",
+  "predicted_description": "Cancer-Associated Stroma",
+  "calibrated_confidence": 0.8029147386550903,
+  "raw_confidence": 0.5373857617378235,
+  "temperature_used": 0.5655267561804929,
+  "logits": [
+    0.011605687439441681,
+    0.43578317761421204,
+    0.8570739030838013,
+    0.39835411310195923,
+    0.37472259998321533,
+    2.3308629989624023,
+    1.3474087715148926,
+    3.3206543922424316,
+    0.6070307493209839
+  ],
+  "raw_probabilities": {
+    "ADI": 0.019641950726509094,
+    "BACK": 0.030019432306289673,
+    "DEB": 0.04574742913246155,
+    "LYM": 0.028916599228978157,
+    "MUC": 0.028241267427802086,
+    "MUS": 0.19972167909145355,
+    "NORM": 0.0746992900967598,
+    "STR": 0.5373857617378235,
+    "TUM": 0.0356266051530838
+  },
+  "calibrated_probabilities": {
+    "ADI": 0.002309383824467659,
+    "BACK": 0.004889245145022869,
+    "DEB": 0.010298420675098896,
+    "LYM": 0.004576129373162985,
+    "MUC": 0.004388847853988409,
+    "MUS": 0.1394961178302765,
+    "NORM": 0.024508781731128693,
+    "STR": 0.8029147386550903,
+    "TUM": 0.006618366576731205
+  },
+  "top_k_ranking": [
+    {
+      "rank": 1,
+      "class_index": 7,
+      "class_name": "STR",
+      "description": "Cancer-Associated Stroma",
+      "calibrated_confidence": 0.8029147386550903,
+      "raw_confidence": 0.5373857617378235,
+      "logit": 3.3206543922424316
+    },
+    {
+      "rank": 2,
+      "class_index": 5,
+      "class_name": "MUS",
+      "description": "Smooth Muscle",
+      "calibrated_confidence": 0.1394961178302765,
+      "raw_confidence": 0.19972167909145355,
+      "logit": 2.3308629989624023
+    },
+    {
+      "rank": 3,
+      "class_index": 6,
+      "class_name": "NORM",
+      "description": "Normal Colon Mucosa",
+      "calibrated_confidence": 0.024508781731128693,
+      "raw_confidence": 0.0746992900967598,
+      "logit": 1.3474087715148926
+    },
+    {
+      "rank": 4,
+      "class_index": 2,
+      "class_name": "DEB",
+      "description": "Debris & Necrosis",
+      "calibrated_confidence": 0.010298420675098896,
+      "raw_confidence": 0.04574742913246155,
+      "logit": 0.8570739030838013
+    },
+    {
+      "rank": 5,
+      "class_index": 8,
+      "class_name": "TUM",
+      "description": "Colorectal Adenocarcinoma (Tumour)",
+      "calibrated_confidence": 0.006618366576731205,
+      "raw_confidence": 0.0356266051530838,
+      "logit": 0.6070307493209839
+    }
+  ],
+  "gradcam_info": {
+    "target_class": "STR",
+    "target_description": "Cancer-Associated Stroma",
+    "target_confidence": 0.8029147386550903,
+    "method": "gradcam++",
+    "used_fallback": false,
+    "saved_figure_path": "gradcam_output\\Cancer-Associated Stroma_gradcam.png"
+  }
+}
