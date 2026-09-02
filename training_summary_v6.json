@@ -1,0 +1,36 @@
+{
+  "model_name": "XPathology_ColonSpecialist_CTransPath_v6",
+  "architecture": "CTransPath (Swin-Tiny + ConvStem)",
+  "base": "CTransPath pipeline with Grad-CAM++ stability enhancements",
+  "training_optimization": {
+    "data_loading": "Albumentations + OpenCV C++ backend",
+    "mixed_precision": "torch.amp.autocast('cuda') (FP16)",
+    "phase1_epochs": 8,
+    "phase2_epochs": 15,
+    "learning_rates": {
+      "phase1": 0.001,
+      "phase2_backbone": 1e-05,
+      "phase2_head": 0.0002
+    },
+    "scheduler": "CosineAnnealingLR"
+  },
+  "gradcam_fix": "Grad-CAM++ alpha-weighting computed on ReLU-clamped features with automatic vanilla Grad-CAM fallback on degenerate output",
+  "stain_normalization": "Not applied",
+  "metrics": {
+    "final_test_accuracy": 0.9732590529247911,
+    "calibrated_temperature": 0.5655267561804929
+  },
+  "normalization": {
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "image_size": 224
+  }
+}
